@@ -1,0 +1,46 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "general_qa",
+  "dataset_size": 25406416,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/margiela00/general_qa@1b72d6e524b859950838bb719bc15a523704fbbe/data/train-00000-of-00001.parquet": {
+      "num_bytes": 12154919,
+      "checksum": null
+    }
+  },
+  "download_size": 12154919,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 37561335,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 25406416,
+      "num_examples": 35474,
+      "dataset_name": "general_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
